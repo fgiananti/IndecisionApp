@@ -1,6 +1,17 @@
-// ES6 import syntax
+// ES6 import syntaxs
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app';
+import {Header, Action, Options, AddOption} from './components/app';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+
+const jsx = (
+  <div>
+    <h1>Title</h1>
+    <Header />
+    <Action />
+    <Options />
+    <AddOption />
+  </div>
+);
+
+ReactDOM.render(jsx, document.getElementById('app'));
