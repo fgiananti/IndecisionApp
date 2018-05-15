@@ -2,5 +2,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {IndecisionApp} from './components/app';
+import {CounterApp} from './components/counter';
+import {VisibilityApp} from './components/visibility';
 
-ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
+ReactDOM.render(
+  <div>
+    <IndecisionApp />
+    <CounterApp />
+    <VisibilityApp />
+  </div>
+  , document.getElementById('app'));
