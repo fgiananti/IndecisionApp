@@ -8,7 +8,8 @@ import {VisibilityApp} from './components/visibility';
 ReactDOM.render(
   <div>
     <IndecisionApp />
-    <CounterApp />
-    <VisibilityApp />
   </div>
   , document.getElementById('app'));
+
+  // <CounterApp />
+  // <VisibilityApp />
