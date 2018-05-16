@@ -16,6 +16,13 @@ module.exports = {
         presets: ['env', 'react'],
         plugins: ['transform-class-properties']
       }
+    }, {
+      test: /.scssx?$/,
+      use: [
+        'style-loader',
+        'css-loader',
+        'sass-loader'
+      ]
     }]
   },
   devtool: 'cheap-module-eval-sourve-map',
