@@ -12,7 +12,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "react-modal": "^3.4.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
