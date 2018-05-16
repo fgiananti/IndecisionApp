@@ -16,5 +16,9 @@ module.exports = {
         presets: ['env', 'react']
       }
     }]
+  },
+  devtool: 'cheap-module-eval-sourve-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'client')
   }
 }
